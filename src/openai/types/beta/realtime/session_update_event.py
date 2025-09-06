@@ -225,6 +225,7 @@ class Session(BaseModel):
 
     model: Optional[
         Literal[
+            "gpt-realtime",
             "gpt-4o-realtime-preview",
             "gpt-4o-realtime-preview-2024-10-01",
             "gpt-4o-realtime-preview-2024-12-17",
